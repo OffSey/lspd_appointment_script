@@ -11,6 +11,6 @@ Ped = {
 DurationProgress = 5000,
 
 -- Logs Link
-WebhookLink = 'https://discord.com/api/webhooks/1229031698092658728/e5RFSuc9Bx-2aUiwd9m0hj_OEbNjGqwYVSYNhuSthkm26k8XwbREjCV3dKzMG7My0gP8'
+WebhookLink = 'CHANGE ME - LINK WEBHOOK'
 
 }
