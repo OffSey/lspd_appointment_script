@@ -12,7 +12,6 @@ AddEventHandler("logsappelpolice:logsappel", function(message, timestamp)
     local date = os.date('%d/%m/%Y', timestamp / 1000)
 
     exports["lspd_appointment_script"]:webhooks({ ---- Change le EXPORTS si vous changez le nom de la ressource !
-        -- message = "__***Prise De Rendez-Vous***__ \n\n **Information Rendez-Vous :** \n ***Prénom & Nom :*** ``"..xPlayer.getName() .."`` \n ***Raison :*** ``"..message.."``\n***Numéro de téléphone :*** ``"..phoneNumber.."``\n***Date du rendez-vous:*** ``" .. date.."``",
         message = "__***" .. locale('prise_rdv') .. "***__ \n\n **" .. locale('info_rdv') .. "** \n ***" .. locale('prenom_nom') .. ":*** ``" .. xPlayer.getName() .. "`` \n ***" .. locale('raison') .. ":*** ``" .. message .. "``\n***" .. locale('num_tel') .. ":*** ``" .. phoneNumber .. "``\n***" .. locale('date_rdv') .. ":*** ``" .. date .. "``",
         webhookLink = Config.WebhookLink
     })
