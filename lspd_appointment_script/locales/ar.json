@@ -1,0 +1,17 @@
+{
+    "rdv_label": "تحديد موعد",
+    "input_title": "موعد ل دي إس بي دي",
+    "input_label": "سبب موعدك",
+    "input_desc": "يرجى تحديد موعد جدي لعواقب قانونية خطيرة!",
+    "date_label": "تاريخ موعدك",
+    "date_desc": "اختر تاريخًا مناسبًا",
+    "prise_rdv": "تحديد موعد",
+    "info_rdv": "معلومات الموعد",
+    "prenom_nom": "الاسم الأول والاسم الأخير",
+    "raison": "سبب",
+    "num_tel": "رقم الهاتف",
+    "date_rdv": "تاريخ الموعد",
+    "progressbar": "تحديد موعد",
+    "notification_title": "الموعد",
+    "notification_message": "تم تحديد الموعد بنجاح، السبب: "
+}

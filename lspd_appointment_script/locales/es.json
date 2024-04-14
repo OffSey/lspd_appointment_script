@@ -1,0 +1,17 @@
+{
+    "rdv_label": "Programar una cita",
+    "input_title": "Cita L.S.P.D",
+    "input_label": "Motivo de su cita",
+    "input_desc": "¡Por favor, haga una reserva de cita seria bajo pena de graves sanciones judiciales!",
+    "date_label": "Fecha de su cita",
+    "date_desc": "Elija una fecha adecuada",
+    "prise_rdv": "Reserva de cita",
+    "info_rdv": "Información de la cita",
+    "prenom_nom": "Nombre & Apellido",
+    "raison": "Motivo",
+    "num_tel": "Número de teléfono",
+    "date_rdv": "Fecha de la cita",
+    "progressbar": "Reserva de cita",
+    "notification_title": "Cita",
+    "notification_message": "Cita realizada con éxito, motivo: "
+}

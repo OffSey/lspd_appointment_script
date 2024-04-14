@@ -1,0 +1,17 @@
+{
+    "rdv_label": "预约",
+    "input_title": "L.S.P.D 预约",
+    "input_label": "预约原因",
+    "input_desc": "请严肃预约，否则将面临严重的法律制裁！",
+    "date_label": "您的预约日期",
+    "date_desc": "选择一个合适的日期",
+    "prise_rdv": "预约",
+    "info_rdv": "预约信息",
+    "prenom_nom": "名字和姓氏",
+    "raison": "原因",
+    "num_tel": "电话号码",
+    "date_rdv": "预约日期",
+    "progressbar": "预约",
+    "notification_title": "预约",
+    "notification_message": "预约成功，原因："
+}

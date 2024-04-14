@@ -1,0 +1,17 @@
+{
+    "rdv_label": "Make an appointment",
+	"input_title": "L.S.P.D Appointment",
+    "input_label": "Reason for your appointment",
+    "input_desc": "Please make a serious appointment booking under penalty of severe judicial sanction!",
+    "date_label": "Date of your appointment",
+    "date_desc": "Choose a suitable date",
+    "prise_rdv": "Appointment Booking",
+    "info_rdv": "Appointment Information",
+    "prenom_nom": "First Name & Last Name",
+    "raison": "Reason",
+    "num_tel": "Phone Number",
+    "date_rdv": "Appointment Date",
+    "progressbar": "Appointment Booking",
+    "notification_title": "Appointment",
+    "notification_message": "Appointment made successfully, reason: "
+}
