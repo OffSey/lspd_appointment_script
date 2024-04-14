@@ -40,7 +40,7 @@ end
 function webhooks(set)
     local discordEmbed = {
         ["type"] = "rich",
-        ["title"] = Config.TitleIconEmbed,
+        ["title"] = Config.TitleEmbed,
         ["color"] = set.color or ColorLogs.NoBorder,
         ["description"] = set.message or "message null",
         ["author"] = {
@@ -57,7 +57,7 @@ function webhooks(set)
         }
     }
     PerformHttpRequest(set.webhookLink, function() end, 'POST', json.encode({
-        username = Config.EmbedName,
+        username = Config.UserNameEmbed,
         embeds = { discordEmbed }
     }), {['Content-Type'] = 'application/json'})
 end
