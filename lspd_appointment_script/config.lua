@@ -13,7 +13,7 @@ DurationProgress = 5000,
 -- Logs
 WebhookLink = 'CHANGE ME - LINK WEBHOOK',
 TitleEmbed = 'OffSey Dev',
-Config.IconURL = 'https://cdn.discordapp.com/attachments/1202360060035207228/1229002469061689425/offseyy.png?ex=662e18be&is=661ba3be&hm=fe7a9c7df7004e291e8ae5d47a826aea23118872cb27ae64ee06060efe502c05&',
-Config.URLEmbed = 'https://www.youtube.com/channel/UCLxAoqw6NdAcnZNQQd5y1oQ',
-Config.NameEmbed = 'OffSey Dev'
+IconURL = 'https://cdn.discordapp.com/attachments/1202360060035207228/1229002469061689425/offseyy.png?ex=662e18be&is=661ba3be&hm=fe7a9c7df7004e291e8ae5d47a826aea23118872cb27ae64ee06060efe502c05&',
+URLEmbed = 'https://www.youtube.com/channel/UCLxAoqw6NdAcnZNQQd5y1oQ',
+NameEmbed = 'OffSey Dev'
 }
