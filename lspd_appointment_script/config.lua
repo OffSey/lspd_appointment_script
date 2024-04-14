@@ -12,9 +12,9 @@ DurationProgress = 5000,
 
 -- Logs
 WebhookLink = 'CHANGE ME - LINK WEBHOOK',
-TitleEmbed = 'OffSey Dev',
+TitleEmbed = 'OffSey Dev', -- Change the title of embed
 IconURL = 'https://cdn.discordapp.com/attachments/1202360060035207228/1229002469061689425/offseyy.png?ex=662e18be&is=661ba3be&hm=fe7a9c7df7004e291e8ae5d47a826aea23118872cb27ae64ee06060efe502c05&',
 URLEmbed = 'https://www.youtube.com/channel/UCLxAoqw6NdAcnZNQQd5y1oQ',
-TitleIconEmbed = 'OffSey Dev',
-EmbedName = 'OffSey Dev'
+TitleIconEmbed = 'OffSey Dev', -- Change Title Of Icon Embed
+UserNameEmbed = 'OffSey Dev' -- Name Of Bot
 }
