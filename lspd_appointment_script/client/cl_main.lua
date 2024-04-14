@@ -12,8 +12,8 @@ local rendezvouspolice = {
             end,
             onSelect = function()
                 local input = lib.inputDialog(locale('input_title'), { 
-                {type = 'input', label = locale('input_label'), description = locale('input_desc'), icon = 'fa-solid fa-bars' },
-                {type = 'date', label = locale('date_label'), description = locale('date_desc'), icon = {'far', 'calendar'}, default = false, format = "DD/MM/YYYY"}, 
+                {type = 'input', label = locale('input_label'), description = locale('input_desc'), icon = 'fa-solid fa-bars', required = true},
+                {type = 'date', label = locale('date_label'), description = locale('date_desc'), icon = {'far', 'calendar'}, default = false, format = "DD/MM/YYYY", required = true}, 
                 })
                 
                 if not input then 
