@@ -1,14 +1,14 @@
 Config = {
 -- ox_target
-Icon = 'fa-solid fa-calendar',
-Position = vector3(440.9204, -981.4462, 30.6893),
+Icon = 'fa-solid fa-calendar', -- Icon of ox_target
+Position = vector3(440.9204, -981.4462, 30.6893), -- Position of ox_target
 -- Ped
 Ped = {
-    {position = vector4(440.9204, -981.4462, 0.6893, 115.5143), pedModel = "s_f_y_cop_01"}, -- Ped Police
+    {position = vector4(440.9204, -981.4462, 0.6893, 115.5143), pedModel = "s_f_y_cop_01"}, -- Ped option
 },
 -- ProgressBar
 
-DurationProgress = 5000,
+DurationProgress = 5000, -- Duration of the progressbar
 
 -- Logs
 WebhookLink = 'CHANGE ME - LINK WEBHOOK',
