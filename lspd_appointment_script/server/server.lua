@@ -40,17 +40,17 @@ end
 function webhooks(set)
     local discordEmbed = {
         ["type"] = "rich",
-        ["title"] = set.title or "OffSey Dev",
+        ["title"] = Config.TitleEmbed,
         ["color"] = set.color or ColorLogs.NoBorder,
         ["description"] = set.message or "message null",
         ["author"] = {
-            ["name"] = "OffSey Dev",
-            ["url"] = "https://www.youtube.com/channel/UCLxAoqw6NdAcnZNQQd5y1oQ",
-            ["icon_url"] = "https://cdn.discordapp.com/attachments/1202360060035207228/1229002469061689425/offseyy.png?ex=662e18be&is=661ba3be&hm=fe7a9c7df7004e291e8ae5d47a826aea23118872cb27ae64ee06060efe502c05&"
+            ["name"] = Config.NameEmbed,
+            ["url"] = Config.URLEmbed,
+            ["icon_url"] = Config.IconURL
         },
         ["footer"] = {
             ["text"] = getOSTime(),
-            ["icon_url"] = "https://cdn.discordapp.com/attachments/1202360060035207228/1229002469061689425/offseyy.png?ex=662e18be&is=661ba3be&hm=fe7a9c7df7004e291e8ae5d47a826aea23118872cb27ae64ee06060efe502c05&"
+            ["icon_url"] = Config.IconURL
         },
         ["thumbnail"] = {
             ["url"] = ""
