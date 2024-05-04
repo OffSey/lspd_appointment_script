@@ -4,13 +4,11 @@ RegisterNetEvent("logsappelpolice:logsappel")
 AddEventHandler("logsappelpolice:logsappel", function(message, timestamp)
     local source = source
     local xPlayer = ESX.GetPlayerFromId(source) -- QbCore : QBCore.Functions.GetPlayer(source)
-
-    -- Obtenir le numéro de téléphone du joueur
+    -- Phone Number
     local phoneNumber = exports["lb-phone"]:GetEquippedPhoneNumber(source) -- CHANGE ME 
-
-    -- Convertir le timestamp Unix en une date lisible par l'homme
+    -- For the date in the discord webhook
     local date = os.date('%d/%m/%Y', timestamp / 1000)
-
+    -- Webhook discord
     exports["lspd_appointment_script"]:webhooks({ ---- Change the "lspd_appointment_script" if you change the resource name
         message = "__***" .. locale('prise_rdv') .. "***__ \n\n **" .. locale('info_rdv') .. "** \n ***" .. locale('prenom_nom') .. ":*** ``" .. xPlayer.getName() .. "`` \n ***" .. locale('raison') .. ":*** ``" .. message .. "``\n***" .. locale('num_tel') .. ":*** ``" .. phoneNumber .. "``\n***" .. locale('date_rdv') .. ":*** ``" .. date .. "``",
         webhookLink = Config.WebhookLink
