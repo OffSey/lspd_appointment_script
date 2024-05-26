@@ -3,7 +3,7 @@ games {'gta5'}
 lua54 'yes'
 author 'OffSey'
 description 'LSPD Appointment System'
-Discord 'https://discord.gg/SWDSeKksaR'
+Discord 'https://discord.gg/SWDSeKksaR - Official discord'
 
 
 files {
